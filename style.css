@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    color: #ffffff;
+    color: #222323;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     font-size: 1rem;
@@ -69,7 +69,7 @@ section {
     padding: 3rem 0 3rem 0;
     border: 1px solid #30363d;
     border-radius: 1.2rem;
-    background-color: #22232399;
+    background-color: #ffffff;
 }
 .product {
     height: 12rem;
