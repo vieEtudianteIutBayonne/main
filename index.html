@@ -5,28 +5,143 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vie étudiante IUT Bayonne</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="banner">
+        <h1 class="banner__title">Vie Etudiante Iut Bayonne</h1>
+        <img class="banner__img" src="./assets/banniere.png" alt="">
+    </div>
     <header class="header">
-        <a class="header-img" href="./index.html"><img src="" alt="Logo de la société"></a>
-        <nav class="header-nav">
-            <a class="header-btn" title="Espace Pro" href="#espace-pro">Espace Pro</a>
-            <a class="header-btn" title="Autres" href="">Autres</a>
-            <a class="header-btn" title="Contact" href="#contact">Contact</a>
+        <nav class="header__nav">
+            <a class="header__btn" data-title="Hébergements" href="#hebergements">Hébergements</a>
+            <a class="header__btn" data-title="Santé" href="#sante">Santé</a>
+            <a class="header__btn" data-title="Activités" href="#activites">Activités</a>
+            <a class="header__btn" data-title="Divers" href="#divers">Divers</a>
         </nav>
     </header>
-    <section>
-       
+    <section id="hebergements" class="section">
+        <div class="section__container">
+            <h2 class="section__title">Hébergements particuliers</h2>
+            <span class="section__line"></span>
+            <p class="section__txt">
+                <strong>Opération « UN, DEUX, TOIT »</strong> <br>
+                Cette opération de la Région Aquitaine, est un réseau d’hébergement en chambres <br>
+                chez les particuliers destinés aux étudiants pour des séjours courts ou fractionnés.
+            </p>
+            <a class="section__link" title="Aller sur operationundeuxtoit.fr" href="https://www.operationundeuxtoit.fr/">En savoir plus</a>
+            <p class="section__txt">
+                <strong>Lokaviz</strong> <br>
+                Il s'agit de la centrale des offres de logement dédiées aux étudiants boursiers <br>
+                et non-boursiers, Ce site, géré par le CROUS, dédié au logement étudiant en France propose des offres,<br>
+                tant dans les résidences du Crous que chez les particuliers. Il garantit la qualité des logements privés :<br>
+                localisation, tarification, confort et respect des bonnes pratiques en matière de rapports locatifs.<br>
+                Pour accéder aux coordonnées des logeurs sur Lokaviz,<br> 
+                vous devez vous connecter sur votre compte MesServices étudiant :
+            </p>
+            <a class="section__link" href="https://www.messervices.etudiant.gouv.fr">https://www.messervices.etudiant.gouv.fr</a>
+            <a class="section__link" title="Aller sur lokaviz.fr" href="h,ps://www.lokaviz.fr/rechercher-un-logement/">En savoir plus</a>
+            <p class="section__txt">
+                Leboncoin - site d'annonce de particuliers à particuliers
+            </p>
+            <a class="section__link" title="Aller sur leboncoin.fr" href="https://www.leboncoin.fr/">https://www.leboncoin.fr/</a>
+        </div>
+        <div class="section__img right-img">
+            <img title="Photo de Oleksandr Pidvalnyi - Pexels.com" src="./assets/immo.png" alt="" srcset="">
+        </div>
+    </section>
+    <section id="hebergements-pro" class="section">
+        <div class="section__container">
+            <h2 class="section__title">Hébergements professionnels</h2>
+            <span class="section__line"></span>
+            <p class="section__txt">
+                Agence Orpi - 3 Av. de Bayonne, 64600 Anglet - Téléphone : 05 59 59 09 54
+            </p>
+            <a class="section__link" title="Aller sur orpi.com" href="https://www.orpi.com/louer/">https://www.orpi.com/louer/</a>
+            <p class="section__txt">
+                Le logis basque - 62 Av. de Bayonne, 64600 Agnlet - Téléphone : 05 59 59 09 54
+            </p>
+            <a class="section__link" title="Aller sur lelogisbasque.fr" href="https://www.lelogisbasque.fr/offres-de-location/">https://www.lelogisbasque.fr/offres-de-location/</a>
+            <p class="section__txt">
+                Human immobilier - 14 All. du Cadran, 64600 Anglet - Téléphone : 05 59 01 40 00
+            </p>
+            <a class="section__link" title="Aller sur human-immobilier.fr" href="https://www.human-immobilier.fr/">https://www.human-immobilier.fr/</a>
+            <p class="section__txt">
+                Foncia - 45 Avenue de Bayonne, 64600 Anglet - Téléphone : 05 59 01 68 01
+            </p>
+            <a class="section__link" title="Aller sur foncia.com" href="https://fr.foncia.com/louer">https://fr.foncia.com/louer</a>
+            <p class="section__txt">
+                Orpi - 3 Av. de Bayonne, 64600 Anglet - Téléphone : 05 59 63 86 74
+            </p>
+            <a class="section__link" title="Aller sur orpi.com" href="https://www.orpi.com/louer/">https://www.orpi.com/louer/</a>
+        </div>
+        <div class="section__img left-img">
+            <img title="Photo de Karolina Grabowska - Pexels.com" src="./assets/immo2.png" alt="" srcset="">
+        </div>
+    </section>
+    <section id="hebergements-conseil" class="section">
+        <div class="section__container">
+            <h2 class="section__title">Hébergements conseils pratiques</h2>
+            <span class="section__line"></span>
+            <p class="section__txt">
+                Ne pas verser d'acompte pour réserver un logememnt sur les sites d'annonces de particuliers à particuliers. <br>
+                Sur le site Leboncoin vérifier que la mention "identité vérifiée" est présente<br>
+                sur l'annonce avant d'envoyer des données personnelles au propriétaire.
+            </p>
+            <a class="section__link" title="Aller sur letudiant.fr" href="https://www.letudiant.fr/lifestyle/logement_2/logement-etudiant-les-pieges-a-eviter.html">En savoir plus</a>
+        </div>
+        <div class="section__img right-img">
+            <img title="Photo de Oleksandr Pidvalnyi - Pexels.com" src="./assets/immo.png" alt="" srcset="">
+        </div>
+    </section>
+    <section id="sante" class="section">
+        <div class="section__container">
+            <h2 class="section__title">Santé</h2>
+            <span class="section__line"></span>
+            <p class="section__txt">
+                Lorem ipsum dolor sit amet, consectetur adipi
+            </p>
+        </div>
+        <div class="section__img left-img">
+            <img title="Photo de Oleksandr Pidvalnyi - Pexels.com" src="./assets/immo.png" alt="" srcset="">
+        </div>
+    </section>
+    <section id="activites" class="section">
+        <div class="section__container">
+            <h2 class="section__title">Activités</h2>
+            <span class="section__line"></span>
+            <p class="section__txt">
+                Lorem ipsum dolor sit amet, consectetur adipi
+            </p>
+        </div>
+        <div class="section__img right-img">
+            <img title="Photo de Oleksandr Pidvalnyi - Pexels.com" src="./assets/immo.png" alt="" srcset="">
+        </div>
+    </section>
+    <section id="divers" class="section">
+        <div class="section__container">
+            <h2 class="section__title">Job d'été</h2>
+            <span class="section__line"></span>
+            <p class="section__txt">
+                Lorem ipsum dolor sit amet, consectetur adipi
+            </p>
+        </div>
+        <div class="section__img left-img">
+            <img title="Photo de Oleksandr Pidvalnyi - Pexels.com" src="./assets/immo.png" alt="" srcset="">
+        </div>
     </section>
     <footer class="footer">
-        <nav class="footer-nav">
-            <a class="header-nav__third-link" href="">Qui somme nous?</a>
-            <a href="" class="header-nav__first-link">Nous contacter</a>
-            <a class="header-nav__second-link" href=""><span>Avis clients</span><span>Avis clients</span></a>
-            
-            <a href="">CGV</a>
+        <nav class="footer__nav">
+            <a class="" href="">IUT Bayonne</a>
+            <a class="" href="">Crous</a>
+            <a class="" href="">Pole santé</a>
         </nav>
     </footer>
+    <script type="module" src="./js/ScrollBtn.js"></script>
+    <script type="module" src="./App.js"></script>
 </body>
 </html>
