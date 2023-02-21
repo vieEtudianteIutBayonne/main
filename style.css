@@ -104,7 +104,7 @@ body {
     gap: 1rem;
     width: 50%;
 }
-#hebergements, #sante, #jeu-video, #mobilite, #divers {
+#hebergements, #sante, #jeu-video, #restauration, #divers {
     flex-direction: row-reverse;
 }
 .section__line {
