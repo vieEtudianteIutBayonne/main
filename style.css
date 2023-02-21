@@ -104,7 +104,7 @@ body {
     gap: 1rem;
     width: 50%;
 }
-#hebergements, #sante, #jeu-video, #mobilite {
+#hebergements, #sante, #jeu-video, #mobilite, #divers {
     flex-direction: row-reverse;
 }
 .section__line {
@@ -168,6 +168,9 @@ body {
 .footer__nav a {
     font-size: .9rem;
     text-decoration: none;
+}
+.footer__nav a:hover {
+    color: #238ec4;
 }
 .footer__mail {
     display: flex;
