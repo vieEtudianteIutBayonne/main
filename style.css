@@ -164,13 +164,22 @@ body {
     width: 80%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .footer__nav a {
     font-size: .9rem;
     text-decoration: none;
+    border: 2px solid #238ec4;
+    color: #238ec4;
+    width: 25%;
+    border-radius: 1.2em;
+    display: flex;
+    justify-content: center; 
+    margin: 0 0 2% 0;
 }
 .footer__nav a:hover {
-    color: #238ec4;
+    color: #121212;
+    background-color: #238ec4;
 }
 .footer__mail {
     display: flex;
@@ -247,6 +256,9 @@ body {
     .footer__nav {
         flex-direction: column;
     }
+    .footer__nav a {
+        width: 65%;
+    }
 }
 
 @media screen and (min-width: 650px) and (max-width: 990px) {
@@ -282,5 +294,8 @@ body {
     }
     .banner {
         height: 22rem;
+    }
+    .footer__nav a {
+        width: 35%;
     }
 }
